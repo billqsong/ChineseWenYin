@@ -1,5 +1,10 @@
 # 文隐 WenYin / ChiCrypt
 
+<p align="center">
+  简体中文 | <a href="./README.en.md">English</a>
+</p>
+
+
 文隐（WenYin / ChiCrypt）是一个**纯前端、本地优先的中文自然密文加密项目**。
 
 用户输入原文、密钥、安全等级和伪装风格后，浏览器会在本地使用 **Argon2id** 与 **XChaCha20-Poly1305** 完成认证加密，并把加密后的 payload 编码成一段看起来相对自然的中文文本。
